@@ -1,0 +1,5 @@
+interface:
+  display_name: "Handoff to new chat"
+  short_description: "Compact a conversation then handoff to a new chat in this project"
+policy:
+  allow_implicit_invocation: false
