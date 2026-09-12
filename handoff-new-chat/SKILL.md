@@ -1,11 +1,11 @@
 ---
 name: handoff-new-chat
-description: Handoff the current conversation compacted to continue in a new chat in this project.
+description: Handoff the current conversation compacted to a newly made chat in this project.
 argument-hint: "What will the new chat session be used for?"
 disable-model-invocation: true
 ---
 
-Write a compact handoff summarizing the current conversation to continue the current work in a genuinely new Codex chat with a fresh context window within the same project.
+Write a compact handoff summarizing the current conversation to continue the current work. Create a new Codex chat inside the same project and give it the handoff as the initial message.
 
 Do not fork the current chat and do not create or save a handoff file unless explicitly requested. Return the handoff directly in the response.
 
