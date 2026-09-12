@@ -5,8 +5,9 @@ argument-hint: "What will the new chat session be used for?"
 disable-model-invocation: true
 ---
 
-Write a compact handoff summarizing the current conversation to continue the current work. Create a new Codex chat inside the same project and give it the handoff as the initial message.
+Write a compact handoff summarizing the current conversation to continue the current work. Create a new Codex chat inside the current project and give it the handoff as the initial message.
 
+Do not create the chat as a work-tree chat unless that was explicitly requested. 
 Do not fork the current chat and do not create or save a handoff file unless explicitly requested. Return the handoff directly in the response.
 
 The new chat should use the same current model and reasoning effort settings unless the user specified otherwise.
